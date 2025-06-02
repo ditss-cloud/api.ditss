@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/png" href="api-page/IMG-20250312-WA0045.png">
-  <title>Download script Asuma - Ditss</title>
+  <title>Download Source Asuma - Ditss</title>
   <script src="https://cdn.tailwindcss.com"></script> 
   <script>
     tailwind.config = { darkMode: 'class' }
@@ -23,6 +23,7 @@
 
     iframe {
       aspect-ratio: 16 / 9;
+      width: 100%;
     }
   </style>
 </head>
@@ -53,8 +54,10 @@
 
     <!-- Video Demo -->
     <section class="fade-up">
-      <h2 class="text-xl font-semibold mb-3">🎥 Video Riview</h2>
-      <iframe class="w-full rounded-lg shadow-lg" src="https://youtu.be/Cpsfcb3Xr4c?si=1ZzAKNJBwPCoimOM"  allowfullscreen></iframe>
+      <h2 class="text-xl font-semibold mb-3">🎥 Video Demo Penggunaan Bot</h2>
+      <iframe class="rounded-lg shadow-lg" 
+              src="https://www.youtube.com/embed/Cpsfcb3Xr4c?si=eYsBB5urjpZaYrbi" 
+              allowfullscreen></iframe>
     </section>
 
     <!-- Fitur Utama -->
@@ -75,19 +78,37 @@
       <h2 class="font-semibold mb-3 text-lg">📘 Dokumentasi Singkat</h2>
       <pre class="bg-gray-900 p-4 rounded-md overflow-x-auto text-sm">
 {`
-# Cara Install Asuma Bot
+# Install di Pannel ⚙️:
+masukan cmd
+•1 add file dipanel asuma.zip jngn lupa unarchive
+•2 jika sudah masukan cmd npm start
+•3 keluar code pairing, masukan kode pairing ke nomor yg mau jadibot
+•4 tinggal pakai
+•5 note: harap jangan memakai panel murah.
 
-1. Pastikan Node.js sudah terinstall.
-2. Clone repository:
-   git clone https://github.com/adiett/Asumaa.git 
-3. Masuk ke folder:
-   cd Asumaa
-4. Install dependency:
-   npm install
-5. Jalankan bot:
-   node index.js
+Error? Modul Not Found?
+tandanya panel nggk kuat gini caranya 
+•1 npm start ganti ke yarn
+•2 jika sudah selesai yarn ganti ke npm start lagi
+•3 tinggal pakai ( harap jangan memakai panel murah ) 
+•4 selesai
+  
+# install di termux
+  •1
 `}
       </pre>
+    </section>
+
+    <!-- Changelog -->
+    <section class="bg-gray-800 p-6 rounded-lg shadow-lg fade-up">
+      <h2 class="font-semibold mb-3 text-lg">🆕 Changelog</h2>
+      <ul class="space-y-4 text-sm text-gray-300 list-disc pl-5">
+        <li><strong>v Beta</strong>: Rilis awal source code Asuma bot WhatsApp</li>
+        <li><strong>v1.0.1</strong>: Tambah fitur custom command dan anti-spam dasar</li>
+        <li><strong>v1.1.0</strong>: Integrasi database lokal, fix bug WA connection</li>
+        <li><strong>v1.2.0</strong>: Support multi-device (WA Web + Mobile), UI lebih responsif</li>
+        <li><strong>v1.2.1</strong>: Perbaikan dokumentasi dan update lisensi</li>
+      </ul>
     </section>
 
     <!-- Lisensi MIT -->
@@ -141,14 +162,25 @@
       </p>
     </section>
 
+    <!-- Thanks To -->
+    <section class="bg-gray-800 p-6 rounded-lg shadow-lg fade-up">
+      <h2 class="font-semibold mb-3 text-lg">🙌 Thanks To (Tqto)</h2>
+      <ul class="space-y-2 text-sm list-disc pl-5 text-gray-300">
+        <li><strong>Adiett</strong> – Developer utama Asuma Bot</li>
+        <li><strong>Ditss Team</strong> – Support infrastruktur dan ide</li>
+        <li><strong>WhatsApp Community</strong> – Inspirasi fitur dan feedback</li>
+        <li><strong>You</strong> – Yang setia mendukung dan menggunakan Asuma!</li>
+      </ul>
+    </section>
+
     <!-- Download Section -->
     <section class="bg-gray-800 p-6 rounded-lg shadow-lg fade-up">
-      <h2 class="font-semibold mb-3 text-lg">📦 Download Script</h2>
+      <h2 class="font-semibold mb-3 text-lg">📦 Download Source Code</h2>
       <a id="downloadLink" href="https://download1530.mediafire.com/5xi1110gb7wgjk9-AINgIw36xkr4irXNB98IL9Xf9-AOnN4TAqqTFZUEynihLjSSUjM2r_DTzyLKzVP5eNPV9cNwQ5Mh50I3_SQZXnu6j1eYnw3JKbqR6au-w5iH59iWIUCHTdZaMd_aH4Gb48Zhny3TqwersO8R9bN_wF8sZOJ05g/1fs4l8chluc5olc/AsuMaa.zip" 
          target="_blank" rel="noopener noreferrer"
          class="flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded transition duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
         </svg>
         Script Asuma v Beta
       </a>
